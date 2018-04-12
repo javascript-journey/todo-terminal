@@ -1,0 +1,11 @@
+
+Usage: command <arguments>
+
+Available commands:
+  list				Melihat daftar TODO
+  add <definisi_task>		Menambahkan TODO kedalam list
+  findById <task_id>		Melihat detail TODO sesuai dengan idnya
+  delete <task_id>		Menghapus TODO sesuai dengan idnya
+  complete <task_id>		Merubah status TODO jadi selesai sesuai dengan idnya
+  uncomplete <task_id>		Merubah status TODO jadi belum selesai sesuai dengan idnya
+  search <argumen>		Mencari TODO yang mengandung kata pada argumen
