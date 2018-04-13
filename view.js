@@ -51,6 +51,7 @@ class View{
 		console.log("$ node todo.js delete <task_id> # menghapus todo sesuai id nya");
 		console.log("$ node todo.js complete <task_id> # merubah status todo jadi selesai sesuai id nya");
 		console.log("$ node todo.js uncomplete <task_id> # merubah status todo jadi belum selesai sesuai id nya");
+		console.log("$ node todo.js search 'aplikasi' # akan menampilkan todo yang mengandung string 'aplikasi' ")
 
 	}
 }

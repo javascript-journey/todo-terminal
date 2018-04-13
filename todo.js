@@ -24,6 +24,8 @@
  			controllerTodo.completeTodo(id);
  		}else if (perintah == "uncomplete") {
  			controllerTodo.unCompleteTodo(id);
+ 		}else if (perintah == "search") {
+ 			controllerTodo.searchTask(id);
  		}else{
  			controllerTodo.help();
  		}
