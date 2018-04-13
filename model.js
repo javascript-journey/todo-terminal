@@ -26,15 +26,18 @@ class Model {
 		this.syncronData();
 	}
 	cekTodo(id){
-		let index = 0;
 
 		for (let i = 0, len = this.todo.length; i < len; i++) { 
 			if (id - this.todo[i].id == 0) {
-				index += i;
+				var index = i;
 			}
 		} 
+		if (typeof index === 'undefined') {
+			return -1;
+		}else{
+			return index;
+		}
 
-		return index;
 	}
 	detailTodo(id){
 		
